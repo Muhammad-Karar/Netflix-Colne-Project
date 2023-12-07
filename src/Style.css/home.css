@@ -99,14 +99,22 @@
     /* width: 40%;
     height: 90%; */
     position: relative;
-
+    z-index: 10;
+}
+.img-area1 img{
+    z-index: 10;
+}
+.img-area1 video{
+    z-index: 0;
 }
 .video-class{
     position: absolute;
     bottom: 179px;
     left: 76px;
     background-size: cover;
+    z-index: 1;
 }
+
 .home-sec-2{
     background-color: rgb(0, 0, 0);
     width: 100%;
